@@ -12,26 +12,26 @@ class mars2kParameters:
 
 available_datasets = {
     "bicubic_x2": {
-        "train_directory": "mars2k_dataset/LRx2/train/",
-        "valid_directory": "mars2k_dataset/LRx2/valid/",
+        "train_directory": "/content/drive/MyDrive/mars2k_dataset/LRx2/train/",
+        "valid_directory": "/content/drive/MyDrive/mars2k_dataset/LRx2/valid/",
         "scale": 2
     },
     
     "bicubic_x3": {
-        "train_directory": "mars2k_dataset/LRx3/train/",
-        "valid_directory": "mars2k_dataset/LRx3/valid/",
+        "train_directory": "/content/drive/MyDrive/mars2k_dataset/LRx3/train/",
+        "valid_directory": "/content/drive/MyDrive/mars2k_dataset/LRx3/valid/",
         "scale": 3
     },
     
     "bicubic_x4": {
-        "train_directory": "mars2k_dataset/LRx4/train/",
-        "valid_directory": "mars2k_dataset/LRx4/valid/",
+        "train_directory": "/content/drive/MyDrive/mars2k_dataset/LRx4/train/",
+        "valid_directory": "/content/drive/MyDrive/mars2k_dataset/LRx4/valid/",
         "scale": 4
     },
     
     "bicubic_x8": {
-        "train_directory": "mars2k_dataset/LRx8/train/",
-        "valid_directory": "mars2k_dataset/LRx8/valid/",
+        "train_directory": "/content/drive/MyDrive/mars2k_dataset/LRx8/train/",
+        "valid_directory": "/content/drive/MyDrive/mars2k_dataset/LRx8/valid/",
         "scale": 8
     }
 }
