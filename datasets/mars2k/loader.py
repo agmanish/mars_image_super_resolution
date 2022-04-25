@@ -32,7 +32,7 @@ def image_dataset_from_directory(images_path):
 
 
 def create_training_dataset(dataset_parameters, train_mappings, batch_size):
-    lr_dataset = image_dataset_from_directory(dataset_parameters.train_image_directory)
+    lr_dataset = image_dataset_from_directory(dataset_parameters.train_directory)
     hr_dataset = image_dataset_from_directory('/content/drive/MyDrive/mars2k_dataset/HR/train')
 
     dataset = tf.data.Dataset.zip((lr_dataset, hr_dataset))
@@ -47,7 +47,7 @@ def create_training_dataset(dataset_parameters, train_mappings, batch_size):
 
 
 def create_validation_dataset(dataset_parameters):
-    lr_dataset = image_dataset_from_directory(dataset_parameters.valid_image_directory)
+    lr_dataset = image_dataset_from_directory(dataset_parameters.valid_directory)
     hr_dataset = image_dataset_from_directory('/content/drive/MyDrive/mars2k_dataset/HR/valid')
 
     dataset = tf.data.Dataset.zip((lr_dataset, hr_dataset))
